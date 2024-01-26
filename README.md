@@ -3,7 +3,7 @@
 ![License Badge](https://img.shields.io/badge/license-None-blue.svg)
 
 ## Description
-A Node.js command-line application to dynamically generate professional README.md files for development projects
+A command line application that generates a professional README.md file
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -13,16 +13,16 @@ A Node.js command-line application to dynamically generate professional README.m
 - [License](#license)
 
 ## Installation
-
+Utilize inquirer
 
 ## Usage
-Application will be used by entering node index.js in the terminal, which will invoke Inquirerer. Simply follow the prompts, and a README.md file will be generated. 
+Invoke the application in the terminal by using node index.js, and then follow the prompts
 
 ## Contributing
-Reporting bugs, suggesting enhancements, pull requests, and code reviews. 
+Pull requests, code review, any suggestions simply reach out to me directly
 
 ## Tests
-
+For testing, we use jest 
 
 ## Questions
 For any questions, please reach out to me.
