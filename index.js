@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
         .then((answers) => {
             const markdownContent = generateMarkdown(answers);
             writeToFile('README.md', markdownContent);
