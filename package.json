@@ -1,0 +1,19 @@
+{
+  "name": "markdownmaestro",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application to dynamically generate professional README.md files for development projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akent90/MarkdownMaestro.git"
+  },
+  "author": "Alexander Kent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akent90/MarkdownMaestro/issues"
+  },
+  "homepage": "https://github.com/Akent90/MarkdownMaestro#readme"
+}
