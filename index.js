@@ -58,8 +58,16 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.createPromptModule(questions)
+        .then((answers) => {
+            const markdownContent = generateMarkdown(answers);
+            writeToFile('README.md', markdownContent);
+        })
+        .catch((error) => {
+            console.error('An error had occured: ', error);
+        });
+}
 
 // Function call to initialize app
 init();
