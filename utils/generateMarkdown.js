@@ -3,9 +3,10 @@ function renderLicenseBadge(license) {
     return '![License Badge](https://img.sheilds.io/badge/license-${encodeURIComponent(license)-blue.svg)';
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+    if (!license) return '';
+    return 'https://opensource.org/licenses/${license}';
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
